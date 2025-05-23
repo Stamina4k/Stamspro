@@ -1,0 +1,105 @@
+.contact-page{
+     width: 65%;
+     height: 27rem;
+     background: linear-gradient(#02071e,#060f44, #02071e);
+     margin: auto;
+     margin-top: 13%;
+     display: none;
+}
+.contact-page.active{
+     display: block;
+}
+.contact-page h1{
+     text-align: center;
+     margin-top: -40px;
+     margin-bottom: 10px;
+}
+.contact-div{
+     margin: auto;
+     height: 69%;
+     width: 60%;
+     background: ;
+     display: ;
+     border-radius: 10px;
+}
+.last-div{
+     text-align: center;
+}
+.contact-page button{
+     width: 5rem;
+     height: 2.5rem;
+     margin: 10px;
+     border: 1.2px dotted #1574f9;
+     background: #000000 ;
+     border-radius: 7px;
+     color: #fff;
+     font-size: 20px;
+     box-shadow: 0px 10px 15px 5px #2b2eff;
+}
+.contact-page button:hover{
+     background: ;
+     background: #ffffff;
+     border: none;
+     box-shadow: 0px 10px 15px 5px #ffffff;
+     color: #0003ff;
+}
+.contact-div li{
+     height: 20%;
+     width: 70%;
+     background: ;
+     margin-left: 15%;
+     margin-bottom: 17px;
+     border-radius: 10px;
+     box-shadow: 0px 10px 15px 5px #000000;
+}
+.contact-div li a{
+     font-size: 30px;
+     height: 100%;
+     width: 100%;
+     background: transparent;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+}
+#divider{
+     margin-top: -25.5px;
+}  
+.email-div a{
+     font-size: 20px;
+     color: #b600cc;
+}
+#fcon{
+     background: #263ce5;
+}
+#incon{
+    background: #f09433; background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); 
+}
+#whatcon{
+     background: #238a4c;
+}
+
+
+@media(max-width:600px){
+     .contact-page{
+          height:36rem;
+          width: 90.5% ;
+          margin-top: 5rem;
+          margin-bottom: 25px;
+     }
+     .contact-page h1{
+          margin-top: 10px;
+     }
+     .contact-div{
+          width: 95%;
+          margin-top: -30px;
+     }
+     .contact-div li{
+          width: 90%;
+          margin: auto;
+          margin-top: 20px;
+          
+     }
+}
+.foot{display: none;}
+.foot.active{display: block;}
