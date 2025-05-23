@@ -308,20 +308,20 @@ body.active{
 }
 #aln{color: #335b9a;}
 #fdi{
-     background-image: url('..Images/stamina.jpg');
+     background-image: url('../Images/stamina.jpg');
     
 }
 #sdi{
-     background-image: url("..Images/cardtwo.jpg");
+     background-image: url("../Images/cardtwo.jpg");
 }
 #tdi{
-     background-image: url("..Images/cardcity.jpg");
+     background-image: url("../Images/cardcity.jpg");
 }
 #fodi{
-     background-image: url("..Images/cardanime.jpg");
+     background-image: url("../Images/cardanime.jpg");
 }
 #fidi{
-     background-image: url("..Images/cardnature.jpg");
+     background-image: url("../Images/cardnature.jpg");
 }
 .fdd{display: ;font-size: 11.5px;}
 @media(max-width:600px){
