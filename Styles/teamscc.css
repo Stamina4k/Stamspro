@@ -1,8 +1,184 @@
+* {
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     margin: 0;padding: 0;
+}
+
+
+body{
+     font-family: montserrat, sans-serif;
+     font-weight: bold;
+     color: #cacaca;
+     background: #0e0024 ;
+}
+
+body.active{
+     overflow: hidden;
+}
+
+
+.header {
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     padding: 0 20px;
+     height: 10vh;
+     background: linear-gradient( #060f44,#02071e);
+     position: fixed;
+     width: 100%;
+     top: 0;
+     bottom: 50px;
+     display :   ;
+    /* overflow-x: auto;
+     overflow-y: hidden;
+     overflow-wrap: normal;*/
+     z-index: 5;
+}
+.header.active{
+     display :none;
+}
+
+.logo {
+     font-size: 40px;
+     color: #327dc6;
+}
+
+.logo span {
+     color: #1eb689;
+}
+
+.nav-bar {
+     display: flex;
+}
+
+.nav-bar ul {
+     display: flex;
+     align-items: center;
+}
+
+.nav-bar li {
+     margin: 0px 20px;
+     padding: 5px;
+     border-radius: 5px;
+}
+
+.nav-bar span{
+     color: #ffffff;
+     font-size: 20px;
+}
+.nav-bar span:hover{
+     color: #0f36b4;
+}
+
+.nav-bar li:hover {
+     /*background: #17198a;*/
+     transform: scale(0.8); 
+     transition :0.3s ease;
+     cursor:pointer;
+     
+}
+
+.hamburger {
+     width: 50px;
+     height: 40px;
+     display: none;
+     flex-direction: column;
+     justify-content: space-around;
+     cursor : pointer;
+     
+}
+
+.hamburger div {
+     background: #7e7e7e;
+     width: 40px;
+     height: 5px;
+     border-radius: 10px;
+     transition: 0.3s ease;
+     margin: 6px;
+     position : relative;
+}
+
+/* This is mobile screen width codes placed down*/
+
+
+
+
+@media (max-width: 600px) {
+       .hamburger{
+            display : block ;
+            background: transparent;
+            margin-right: -18px;
+       }          
+       .nav-bar{
+          display: block;
+          position :fixed;
+          top:0;
+          background: linear-gradient(#02071e, #140029);
+          width: 100%;
+          height: 800px;
+          left : 100% ;
+          border-radius: 7px;
+          border-top-right-radius: 0px;
+          border: 1px dotted #16144f;
+          overflow-y: auto ;
+          transition:   ;
+          display :none;
+     }
+     
+     .nav-bar ul{
+          display : block ;
+          align-items: center ;
+          width: 70%;
+          margin-left: 5rem;
+          justify-content: center ;a
+          background: blue;
+          margin: auto;margin-top: 60px;
+     }
+     .nav-bar li{
+          background:  #000000;
+          text-align: center ;
+          margin: auto;
+          padding: 30px;
+          width: 95%;
+          margin-top: 16px;: ;
+          border-radius: 20px;
+          box-shadow: 3px 10px 3px 0px #000020;height: 95px;
+          border: 1px dotted #222987;
+     }
+     .nav-bar li:hover{background: #080e62;}
+     .nav-bar a{
+          font-size:25px;
+          color: #ffffff;
+          
+     }
+     
+     .nav-bar.active{
+          display : block ;
+          left: 6%;
+     }
+     .hamburger.active div:nth-child(1) {
+          top: 30%;
+          transform: rotate(47deg);
+          background: #273c9a ;
+          transition : 0.3s;
+     } 
+     .hamburger.active div:nth-child(2) {
+          opacity :0;
+     }     
+     .hamburger.active div:nth-child(3) {
+          top: -26%;
+          transform:  rotate(-47deg);
+          background: #273c9a;
+         transition : 0.3s ;
+     }       
+     
+}
 .teampage{
      max-width: 100%;
      height: 71rem;
      background: linear-gradient(#02071e, #250b41)  ;
-     display:  none;
+     display:  ;
 }
 .teampage.active{display: block;}
 .subhead{
