@@ -188,7 +188,7 @@ body.active{
 .first-container-cover{
      height: 30%;
      width: 99%;
-    background-image: url("..Images/aboutfirst.jpg");
+    background-image: url("../Images/aboutfirst.jpg");
      background-size: cover;
      background-repeat: no-repeat;
     /* background: #040a2c;*/
@@ -307,17 +307,17 @@ body.active{
      background: ; 
 }
 .ccc .inn{
-    background-image: url("..Images/Abpone.jpg");
+    background-image: url("../Images/Abpone.jpg");
      background-repeat: no-repeat;
      background-size: cover;
 }
 .ccc .innn{
-     background-image: url("..Images/business.jpg");
+     background-image: url("../Images/business.jpg");
       background-repeat: no-repeat;
      background-size: cover;
 }
 .ccc .innnn{
-     background-image: url("..Images/joofer.jpg");
+     background-image: url("../Images/joofer.jpg");
       background-repeat: no-repeat;
      background-size: cover;
 }
