@@ -1,0 +1,209 @@
+.teampage{
+     max-width: 100%;
+     height: 71rem;
+     background: linear-gradient(#02071e, #250b41)  ;
+     display:  none;
+}
+.teampage.active{display: block;}
+.subhead{
+     height: 150px; width: 100%;background:  ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     
+}
+.subhead h2{
+     margin-top: 60px;
+}
+#thisteam{
+     margin-top: 120px;
+     margin-right: 20px;
+     font-size: 30px;color: #d9d9d9;
+}
+#thisteam span{
+     color: #6affb6;
+}
+#speed{
+     margin-left: 10px;
+}
+.secdeteam{
+     width: 100%;
+     height: 400px;
+     background: ;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.teamsection{
+     width: 50%;
+     height: 100%;background: ;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     overflow-x: auto;
+     overflow-y: hidden;
+     flex-direction: row ;
+     flex-wrap: nowrap;
+     gap; 20px;
+     margin-top: -50px;
+}
+.card{
+     width: 200px;height: 70%;background: #000;
+     margin: 3px; flex-shrink: 0 ; border-radius: 30px; border: 1px solid #6387a9;
+     box-shadow: inset 1px 1px 15px #6387a9;
+}
+.card div{
+     width: 85%;
+     height: 60%;
+     background: #656565 ;
+     border-radius: 100px;
+     margin: auto;margin-top: 5px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display : grid;
+     grid-auto-flow: column ;
+     grid-auto-column: 250px;
+     justify-items: stretch ;
+     animation : 12s linear infinite;
+}
+#cardname{
+     width: 80%;height: 33px;background:#656565 ;
+     text-align: center;margin: auto;
+     margin-top: 20px;display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.card button{
+     background: transparent ;margin-top:  21.5px;
+     margin-left: 33.5%;
+     color: #fff ;
+     width: 35%;height: 30px;
+     font-size: 20px;
+     border-radius: 10px;
+     border: 1px solid #6affb6 ;bottom: 0;
+}
+.card button:hover{
+     background: #6affb6;color: #000;
+}
+.card:hover{
+     width: 50%;   height: 90%;
+     margin: 8px;
+     transition: all 0.45s ease-in-out;
+     box-shadow: ;
+}
+.teamdetail{
+     width: 28%;height: 75%;background: ;margin-top: 70px;border-radius: 15px;display: block;border: 1px solid #6387a9;
+     box-shadow: 0px 1px 5px 0px #679f35;
+}
+.teamdetail h2{
+     width: 100%;height: 10%;background: black;
+     text-align: center;border-radius: 10px;
+     margin-top: 2px;
+     
+}
+.td{
+     width: 97%;
+     height: 87.5%;border-radius: 15px;
+     margin: auto;
+     background: linear-gradient(#02071e,#004779,#000000);   
+     margin-top: ;border-top-left-radius: 0px;
+     border-top-right-radius: 0px;display: flex;
+     
+     justify-content: center;
+     align-items: center;
+}
+.td h3{
+     margin: 15px;margin-top: -50px; 
+     font-size: 27px;color: #d9d9d9;
+}
+#load{
+     text-align: center;color: #989898;display: ;
+}
+.downteam{
+     height: 21rem;width:90%;background: ;
+     margin-top: 70px;
+     display: ;
+}
+.downteam h2{
+     margin: 20px;color: #adadad;
+}
+#fst{
+     color:#6affb6 ;
+}
+#aln{color: #335b9a;}
+#fdi{
+     background-image: url('..Images/stamina.jpg');
+    
+}
+#sdi{
+     background-image: url("..Images/cardtwo.jpg");
+}
+#tdi{
+     background-image: url("..Images/cardcity.jpg");
+}
+#fodi{
+     background-image: url("..Images/cardanime.jpg");
+}
+#fidi{
+     background-image: url("..Images/cardnature.jpg");
+}
+.fdd{display: ;font-size: 11.5px;}
+@media(max-width:600px){
+     .teampage{
+          height: 120rem;
+     }
+     .secdeteam{
+          display: block;
+          height: 800px;
+          width: 100%;margin-top: 10px;
+     }
+     .teamsection{
+          height: 45%;
+          width: 98%;margin: 4px;
+          border: 1px dotted #2f0054 ;
+     }
+     .card{
+          height: 80%;width: 200px;
+     }
+     .card:hover{
+     width: 245px;   height: 98%;
+     margin: 8px;
+     transition: all 0.45s ease-in-out;
+     }
+     .subhead{
+          display: block;height: 100px ;
+     }
+     #speed{
+          text-align: right;margin-right: 10px;
+     }
+     #thisteam{
+     margin-top: 30px;
+     margin-left: 10px;
+     font-size:  20px;
+     }
+     .teamdetail{
+          width: 80%;height: 45%;
+          margin-top: 50px;margin-left: 10%;
+     }
+     .downteam h2{
+          text-align: ;
+     }
+     .downteam{
+     height: 45em;width:100%;background: ;
+     margin-top: 70px;
+     }
+     
+}
+.ztd.active{
+     display: none;
+}
+.std{display: none;background: linear-gradient(#02071e,#00359c,#000000);}
+.std.active{display: flex ;}
+.atd{display: none;background: linear-gradient(#02071e,#386f4b,#000000);}
+.atd.active{display: flex ;}
+.btd{display:none ;background: linear-gradient(#02071e,#87003d,#87590b,#780087,#000000);}
+.btd.active{display: flex;}
+.ctd{display: none ;background: linear-gradient(#02071e,#171b2d,#000000);}
+.ctd.active{display: flex;}
+.dtd{display: none;background: linear-gradient(#02071e,#66085c,#142a79,#000000);}
+.dtd.active{display: flex ;}
