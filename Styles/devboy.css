@@ -1,0 +1,23 @@
+.gg{
+     margin: ;
+     max-width: 100%;
+     max-height: 552rem;
+     background: #000000;
+     justify-content: center ;align-items: center ; display :none;
+}
+.gg.active{
+     display : block ;
+}
+#hh{
+     height: 100%;margin: auto ;width:97.5%;background: transparent;color: #0d9815;
+}
+#str{
+     height: 25px;width: 100px;color: yellow;font-size: ;
+}
+#ong{
+     color: #ae560e;
+}
+#bt{
+     background: linear-gradient(to right, #640808, #00027d);color: #00d5ff;border: none ;
+     padding: 10px;
+}
