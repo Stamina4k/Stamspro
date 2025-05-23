@@ -342,7 +342,6 @@ body.active{
 #tball{
      color: yellow ;
 }
-
 .mainconleft h1 strong{color:#41c263 ;}
 #fronte{color: #ac0e71;}
 #name{float: right;font-size: 26px;color: #2a94fa;margin-right: 93px;}
@@ -501,4 +500,30 @@ body.active{
      .dv{margin-top: -15rem;}
      #cod{margin-right: 23px ;font-size: 20px;margin-top: ;}
      #name{margin-right: 20px;margin-top: -20px;}
+}
+.footer{
+     height: 12.3rem;
+     width: 100%;
+     background: linear-gradient(#060f44, #02071e) ; 
+     border: ;
+     margin-top: 87px;   
+     margin-bottom: -100px;
+     
+     display: ;
+}
+.footer section{
+     justify-content: center;
+     display: block;
+}
+#by{
+     float: right;
+     margin-bottom: 20px;
+     margin-right: 20px;
+}
+#copy{
+     text-align: center;
+     padding: 30px;
+}
+#thk{
+     margin-left: 20px;
 }
