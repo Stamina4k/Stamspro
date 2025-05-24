@@ -291,6 +291,7 @@ body.active{
      justify-content: center;
      display: block;
 }
+.footer section h2{font-size: 15px;}
 #by{
      float: right;
      margin-bottom: 20px;
