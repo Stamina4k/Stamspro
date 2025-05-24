@@ -514,12 +514,14 @@ body.active{
 .footer section{
      justify-content: center;
      display: block;
+     
 }
+.footer section h2{font-size: 15px;}
 #by{
      float: right;
      margin-bottom: 20px;
      margin-right: 20px;
-}
+}.footer section h2{font-size: 15px;}
 #copy{
      text-align: center;
      padding: 30px;
