@@ -277,5 +277,29 @@ body.active{
           
      }
 }
-.foot{display: none;}
-.foot.active{display: block;}
+.footer{
+     height: 12.3rem;
+     width: 100%;
+     background: linear-gradient(#060f44, #02071e) ; 
+     border: ;
+     margin-top: 87px;   
+     margin-bottom: -100px;
+     
+     display: ;
+}
+.footer section{
+     justify-content: center;
+     display: block;
+}
+#by{
+     float: right;
+     margin-bottom: 20px;
+     margin-right: 20px;
+}
+#copy{
+     text-align: center;
+     padding: 30px;
+}
+#thk{
+     margin-left: 20px;
+}
